@@ -15,12 +15,12 @@ from .embeddings import EmbeddingGenerator
 class VectorStore:
     """FAISS-based vector store for semantic search."""
     
-    def __init__(self, dimension: int = 1536, store_dir: str = "data/vector_store"):
+    def __init__(self, dimension: int = None, store_dir: str = "data/vector_store"):
         """
         Initialize vector store.
         
         Args:
-            dimension: Embedding vector dimension
+            dimension: Embedding vector dimension (auto-detected if None)
             store_dir: Directory to save/load vector store
         """
         self.dimension = dimension
@@ -55,6 +55,11 @@ class VectorStore:
         
         # Convert to numpy array
         embeddings_array = np.array(embeddings).astype('float32')
+        
+        # Auto-detect dimension if not set
+        if self.dimension is None:
+            self.dimension = embeddings_array.shape[1]
+            print(f"✓ Auto-detected embedding dimension: {self.dimension}")
         
         # Create FAISS index
         print("\nCreating FAISS index...")

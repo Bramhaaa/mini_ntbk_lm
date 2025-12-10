@@ -5,7 +5,7 @@ Two-person dialogue simulation (Student/Teacher format).
 
 import os
 from typing import Dict, List
-from openai import OpenAI
+import google.generativeai as genai
 from dotenv import load_dotenv
 import sys
 
@@ -27,9 +27,9 @@ class DialogueMode:
             retriever: RAGRetriever instance
         """
         self.retriever = retriever
-        api_key = os.getenv("OPENAI_API_KEY")
-        self.client = OpenAI(api_key=api_key)
-        self.model = "gpt-4-turbo-preview"
+        api_key = os.getenv("GOOGLE_API_KEY")
+        genai.configure(api_key=api_key)
+        self.model = genai.GenerativeModel("gemini-pro")
     
     def generate_dialogue(self, topic: str, num_exchanges: int = 5) -> Dict[str, any]:
         """
@@ -73,17 +73,12 @@ Context from sources:
 Topic: {topic}"""
         
         # Generate dialogue
-        response = self.client.chat.completions.create(
-            model=self.model,
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": f"Generate a {num_exchanges}-exchange educational dialogue about: {topic}"}
-            ],
-            temperature=0.8,
-            max_tokens=2000
-        )
+        full_prompt = f"""{system_prompt}
+
+Generate a {num_exchanges}-exchange educational dialogue about: {topic}"""
         
-        dialogue = response.choices[0].message.content
+        response = self.model.generate_content(full_prompt)
+        dialogue = response.text
         
         # Parse dialogue into structured format
         lines = dialogue.strip().split('\n')

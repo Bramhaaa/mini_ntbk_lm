@@ -1,33 +1,32 @@
 """
 Embeddings Module
-Handles generation of embeddings using OpenAI API.
+Handles generation of embeddings using sentence-transformers (local, free).
 """
 
 import os
 from typing import List
-from openai import OpenAI
+from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
 
 load_dotenv()
 
 
 class EmbeddingGenerator:
-    """Generate embeddings using OpenAI's embedding models."""
+    """Generate embeddings using sentence-transformers (local, free, no API needed)."""
     
-    def __init__(self, model: str = "text-embedding-3-small"):
+    def __init__(self, model: str = "all-MiniLM-L6-v2"):
         """
         Initialize embedding generator.
         
         Args:
-            model: OpenAI embedding model to use
+            model: Sentence transformer model to use (runs locally)
         """
-        api_key = os.getenv("OPENAI_API_KEY")
-        if not api_key:
-            raise ValueError("OPENAI_API_KEY not found in environment variables")
-        
-        self.client = OpenAI(api_key=api_key)
-        self.model = model
+        print(f"Loading embedding model: {model}...")
+        self.model_name = model
+        self.model = SentenceTransformer(model)
+        self.dimension = self.model.get_sentence_embedding_dimension()
         print(f"✓ Initialized embedding generator with model: {model}")
+        print(f"✓ Embedding dimension: {self.dimension}")
     
     def generate_embedding(self, text: str) -> List[float]:
         """
@@ -39,13 +38,10 @@ class EmbeddingGenerator:
         Returns:
             Embedding vector
         """
-        response = self.client.embeddings.create(
-            model=self.model,
-            input=text
-        )
-        return response.data[0].embedding
+        embedding = self.model.encode(text, convert_to_numpy=True)
+        return embedding.tolist()
     
-    def generate_embeddings_batch(self, texts: List[str], batch_size: int = 100) -> List[List[float]]:
+    def generate_embeddings_batch(self, texts: List[str], batch_size: int = 32) -> List[List[float]]:
         """
         Generate embeddings for multiple texts in batches.
         
@@ -56,23 +52,16 @@ class EmbeddingGenerator:
         Returns:
             List of embedding vectors
         """
-        embeddings = []
-        
-        for i in range(0, len(texts), batch_size):
-            batch = texts[i:i + batch_size]
-            print(f"  Processing batch {i//batch_size + 1}/{(len(texts)-1)//batch_size + 1}")
-            
-            response = self.client.embeddings.create(
-                model=self.model,
-                input=batch
-            )
-            
-            batch_embeddings = [data.embedding for data in response.data]
-            embeddings.extend(batch_embeddings)
+        print(f"Generating embeddings for {len(texts)} texts...")
+        embeddings = self.model.encode(
+            texts, 
+            batch_size=batch_size,
+            show_progress_bar=True,
+            convert_to_numpy=True
+        )
         
         print(f"✓ Generated {len(embeddings)} embeddings")
-        return embeddings
-
+        return embeddings.tolist()
 
 if __name__ == "__main__":
     # Test the embedding generator

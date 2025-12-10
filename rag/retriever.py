@@ -4,8 +4,8 @@ Handles retrieval-augmented generation logic.
 """
 
 import os
-from typing import List, Dict
-from openai import OpenAI
+from typing import List, Dict, Tuple
+import google.generativeai as genai
 from dotenv import load_dotenv
 from .vector_store import VectorStore
 from .embeddings import EmbeddingGenerator
@@ -16,21 +16,22 @@ load_dotenv()
 class RAGRetriever:
     """Retrieval-Augmented Generation system."""
     
-    def __init__(self, vector_store: VectorStore, model: str = "gpt-4-turbo-preview"):
+    def __init__(self, vector_store: VectorStore, model: str = "gemini-pro"):
         """
         Initialize RAG retriever.
         
         Args:
             vector_store: VectorStore instance
-            model: OpenAI chat model to use
+            model: Google Gemini chat model to use
         """
-        api_key = os.getenv("OPENAI_API_KEY")
+        api_key = os.getenv("GOOGLE_API_KEY")
         if not api_key:
-            raise ValueError("OPENAI_API_KEY not found in environment variables")
+            raise ValueError("GOOGLE_API_KEY not found in environment variables")
         
-        self.client = OpenAI(api_key=api_key)
+        genai.configure(api_key=api_key)
+        self.model = genai.GenerativeModel(model)
         self.vector_store = vector_store
-        self.model = model
+        self.model_name = model
         print(f"✓ Initialized RAG retriever with model: {model}")
     
     def retrieve_context(self, query: str, k: int = 5) -> Tuple[str, List[Dict]]:
@@ -71,19 +72,19 @@ class RAGRetriever:
         Returns:
             Generated response
         """
-        messages = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": f"Context:\n{context}\n\nQuestion: {query}"}
-        ]
+        # Combine system prompt and user query for Gemini
+        full_prompt = f"""{system_prompt}
+
+Context:
+{context}
+
+Question: {query}
+
+Answer:"""
         
-        response = self.client.chat.completions.create(
-            model=self.model,
-            messages=messages,
-            temperature=0.7,
-            max_tokens=1500
-        )
+        response = self.model.generate_content(full_prompt)
         
-        return response.choices[0].message.content
+        return response.text
     
     def answer_question(self, query: str, k: int = 5) -> Dict[str, any]:
         """

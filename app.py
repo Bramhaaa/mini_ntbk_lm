@@ -108,8 +108,9 @@ def main():
     st.markdown("---")
     
     # Check for API key
-    if not os.getenv("OPENAI_API_KEY"):
-        st.error("❌ OPENAI_API_KEY not found in environment variables. Please set it in the .env file.")
+    if not os.getenv("GOOGLE_API_KEY"):
+        st.error("❌ GOOGLE_API_KEY not found in environment variables. Please set it in the .env file.")
+        st.info("Get your free API key from: https://makersuite.google.com/app/apikey")
         st.stop()
     
     # Load system

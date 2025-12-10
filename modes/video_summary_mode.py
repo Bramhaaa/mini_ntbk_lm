@@ -5,7 +5,7 @@ Generates structured video-style summaries of chapter content.
 
 import os
 from typing import Dict, List
-from openai import OpenAI
+import google.generativeai as genai
 from dotenv import load_dotenv
 import sys
 
@@ -27,9 +27,9 @@ class VideoSummaryMode:
             retriever: RAGRetriever instance
         """
         self.retriever = retriever
-        api_key = os.getenv("OPENAI_API_KEY")
-        self.client = OpenAI(api_key=api_key)
-        self.model = "gpt-4-turbo-preview"
+        api_key = os.getenv("GOOGLE_API_KEY")
+        genai.configure(api_key=api_key)
+        self.model = genai.GenerativeModel("gemini-pro")
     
     def generate_summary(self, topic: str = "Chapter Overview") -> Dict[str, any]:
         """
@@ -113,17 +113,12 @@ Context:
 {context}"""
         
         # Generate summary
-        response = self.client.chat.completions.create(
-            model=self.model,
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": f"Create a comprehensive video-style summary for: {topic}"}
-            ],
-            temperature=0.7,
-            max_tokens=3000
-        )
+        full_prompt = f"""{system_prompt}
+
+Create a comprehensive video-style summary for: {topic}"""
         
-        summary = response.choices[0].message.content
+        response = self.model.generate_content(full_prompt)
+        summary = response.text
         
         return {
             'topic': topic,
