@@ -23,7 +23,7 @@ def main():
     pdf_url = "https://drive.google.com/file/d/1K9tjpEljoDnYXwW1y4jt_gxW1753lxBW/view?usp=drive_link"
     video_urls = [
         "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
-        "https://www.youtube.com/watch?v=Z_S0VA4jKes&t=3s"
+        "https://www.youtube.com/watch?v=Z_S0VA4jKes"
     ]
     
     # Process PDF

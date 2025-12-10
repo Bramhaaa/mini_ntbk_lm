@@ -1,13 +1,17 @@
 """
 PDF Processor Module
 Handles downloading and processing of PDF documents for the study tool.
+Supports both text-based PDFs and scanned PDFs using OCR.
 """
 
 import os
 import requests
-from PyPDF2 import PdfReader
+import pypdf
 from typing import List, Dict
 import re
+from pdf2image import convert_from_path
+import pytesseract
+from PIL import Image
 
 
 class PDFProcessor:
@@ -68,24 +72,71 @@ class PDFProcessor:
         
         raise ValueError("Could not extract file ID from Google Drive URL")
     
-    def extract_text(self, pdf_path: str) -> str:
+    def extract_text(self, pdf_path: str, use_ocr: bool = True) -> str:
         """
-        Extract all text from PDF.
+        Extract all text from PDF, with OCR fallback for scanned PDFs.
+        
+        Args:
+            pdf_path: Path to PDF file
+            use_ocr: Use OCR for scanned PDFs
+            
+        Returns:
+            Extracted text content
+        """
+        with open(pdf_path, 'rb') as file:
+            reader = pypdf.PdfReader(file)
+            text = ""
+            total_pages = len(reader.pages)
+            
+            print(f"Processing {total_pages} pages...")
+            
+            # First try regular text extraction
+            for page_num in range(total_pages):
+                try:
+                    page = reader.pages[page_num]
+                    page_text = page.extract_text()
+                    if page_text.strip():
+                        text += f"\n\n--- Page {page_num + 1} ---\n\n{page_text}"
+                except Exception as e:
+                    print(f"  Warning: Could not extract text from page {page_num + 1}: {e}")
+            
+            # If no text extracted and OCR is enabled, use OCR
+            if len(text.strip()) < 100 and use_ocr:
+                print("⚠ Little or no text extracted. Using OCR to read scanned PDF...")
+                text = self._extract_text_with_ocr(pdf_path)
+            else:
+                print(f"✓ Extracted text from {total_pages} pages")
+            
+            return text
+    
+    def _extract_text_with_ocr(self, pdf_path: str) -> str:
+        """
+        Extract text from scanned PDF using OCR.
         
         Args:
             pdf_path: Path to PDF file
             
         Returns:
-            Extracted text content
+            OCR extracted text
         """
-        reader = PdfReader(pdf_path)
+        print("  Converting PDF to images...")
+        images = convert_from_path(pdf_path)
+        
         text = ""
+        total_pages = len(images)
         
-        for page_num, page in enumerate(reader.pages, 1):
-            page_text = page.extract_text()
-            text += f"\n\n--- Page {page_num} ---\n\n{page_text}"
+        print(f"  Running OCR on {total_pages} pages...")
+        for page_num, image in enumerate(images, 1):
+            try:
+                # Run OCR on the image
+                page_text = pytesseract.image_to_string(image)
+                if page_text.strip():
+                    text += f"\n\n--- Page {page_num} ---\n\n{page_text}"
+                print(f"    ✓ OCR page {page_num}/{total_pages}")
+            except Exception as e:
+                print(f"    ✗ Error OCR page {page_num}: {e}")
         
-        print(f"✓ Extracted text from {len(reader.pages)} pages")
+        print(f"✓ Extracted text from {total_pages} pages using OCR")
         return text
     
     def chunk_text(self, text: str, chunk_size: int = 1000, overlap: int = 200) -> List[Dict[str, str]]:

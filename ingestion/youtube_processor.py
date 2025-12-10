@@ -40,46 +40,48 @@ class YouTubeProcessor:
         
         raise ValueError(f"Could not extract video ID from URL: {url}")
     
-    def get_transcript(self, video_url: str) -> str:
+    def get_transcript(self, video_url: str, timeout: int = 30) -> str:
         """
-        Fetch transcript from YouTube video.
+        Fetch transcript from YouTube video with timeout.
         
         Args:
             video_url: YouTube video URL
+            timeout: Timeout in seconds
             
         Returns:
             Full transcript text
         """
         video_id = self.extract_video_id(video_url)
+        print(f"  Fetching transcript for video {video_id}...")
         
         try:
-            # Try to get transcript (prefer English)
-            transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
-            
-            # Try to find English transcript
-            try:
-                transcript = transcript_list.find_transcript(['en'])
-            except:
-                # Fall back to any available transcript
-                transcript = transcript_list.find_generated_transcript(['en'])
-            
-            # Get the actual transcript data
-            transcript_data = transcript.fetch()
+            # Create API instance and fetch transcript
+            api = YouTubeTranscriptApi()
+            transcript_list = api.fetch(video_id, languages=['en'])
             
             # Combine all text segments
-            full_text = " ".join([entry['text'] for entry in transcript_data])
+            full_text = " ".join([entry.text for entry in transcript_list])
             
-            print(f"✓ Extracted transcript from video {video_id}")
+            print(f"  ✓ Extracted transcript from video {video_id} ({len(transcript_list)} segments)")
             return full_text
             
         except TranscriptsDisabled:
-            print(f"✗ Transcripts are disabled for video {video_id}")
+            print(f"  ✗ Transcripts are disabled for video {video_id}")
             return ""
         except NoTranscriptFound:
-            print(f"✗ No transcript found for video {video_id}")
-            return ""
+            print(f"  ✗ No English transcript found for video {video_id}")
+            # Try auto-generated (any language)
+            try:
+                print(f"  → Trying auto-generated transcript...")
+                api = YouTubeTranscriptApi()
+                transcript_list = api.fetch(video_id)
+                full_text = " ".join([entry.text for entry in transcript_list])
+                print(f"  ✓ Extracted auto-generated transcript ({len(transcript_list)} segments)")
+                return full_text
+            except:
+                return ""
         except Exception as e:
-            print(f"✗ Error extracting transcript: {str(e)}")
+            print(f"  ✗ Error extracting transcript: {str(e)}")
             return ""
     
     def chunk_transcript(self, text: str, video_url: str, chunk_size: int = 800, overlap: int = 150) -> List[Dict[str, str]]:
@@ -98,6 +100,8 @@ class YouTubeProcessor:
         if not text:
             return []
         
+        print(f"  Chunking transcript (length: {len(text)} characters)...")
+        
         # Clean text
         text = re.sub(r'\s+', ' ', text).strip()
         text = re.sub(r'\[.*?\]', '', text)  # Remove timestamp markers
@@ -106,9 +110,11 @@ class YouTubeProcessor:
         chunks = []
         start = 0
         chunk_id = 0
+        # Safety limit: max chunks based on text length and chunk size
+        max_chunks = (len(text) // (chunk_size - overlap)) + 10
         
-        while start < len(text):
-            end = start + chunk_size
+        while start < len(text) and chunk_id < max_chunks:
+            end = min(start + chunk_size, len(text))
             
             # Try to break at sentence boundary
             if end < len(text):
@@ -133,9 +139,13 @@ class YouTubeProcessor:
                 })
                 chunk_id += 1
             
-            start = end - overlap
+            # Move forward, ensure we make progress
+            if end <= start:
+                start += chunk_size
+            else:
+                start = end - overlap
         
-        print(f"✓ Created {len(chunks)} chunks from video transcript")
+        print(f"  ✓ Created {len(chunks)} chunks from video transcript")
         return chunks
     
     def process_video(self, video_url: str) -> List[Dict[str, str]]:
@@ -160,7 +170,7 @@ class YouTubeProcessor:
     
     def process_videos(self, video_urls: List[str]) -> List[Dict[str, str]]:
         """
-        Process multiple YouTube videos.
+        Process multiple YouTube videos with error handling.
         
         Args:
             video_urls: List of YouTube URLs
@@ -169,10 +179,20 @@ class YouTubeProcessor:
             Combined list of all chunks
         """
         all_chunks = []
+        success_count = 0
         
-        for url in video_urls:
-            chunks = self.process_video(url)
-            all_chunks.extend(chunks)
+        for i, url in enumerate(video_urls, 1):
+            print(f"\n[Video {i}/{len(video_urls)}]")
+            try:
+                chunks = self.process_video(url)
+                if chunks:
+                    all_chunks.extend(chunks)
+                    success_count += 1
+                else:
+                    print(f"⚠ Skipping video (no transcript available)")
+            except Exception as e:
+                print(f"✗ Error processing video: {str(e)}")
+                print(f"⚠ Skipping this video and continuing...")
         
         print(f"\n✓ Total chunks from all videos: {len(all_chunks)}")
         return all_chunks

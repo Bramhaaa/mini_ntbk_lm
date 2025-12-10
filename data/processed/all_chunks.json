@@ -1,9 +1,695 @@
 [
   {
     "id": "pdf_chunk_0",
-    "text": "--- Page 1 --- --- Page 2 --- --- Page 3 --- --- Page 4 --- --- Page 5 --- --- Page 6 --- --- Page 7 --- --- Page 8 --- --- Page 9 ---",
+    "text": "--- Page 1 --- SECTION 5.6 SUMMARY © Monopolistic competition is ‘imperfect competition among the many’. © Monopolistic competition resembles perfect competition in that abnormal profits can be made in the short run but not in the long run. e In the long run, the entry of new firms competes away abnormal profits. Aodobno Z's © Monopolistic competition resembles monopoly in that each firm faces a downward-sloping demand curve [and AR curve). e In the long run, firms in monopolistic competition are allocatively efficient, but not productively efficient. ° However, consumers benefit from the choice offered by a large number of firms selling slightly differentiated products. 9.7 Oligopoly O The meaning of oligopoly The prefix ‘oligo-’ attached to a word is taken from the Greek word oligos, meaning few. In a literal sense, therefore, an oligopoly is a market or industry containing a few firms. This is the way oligopoly is defined as a form of market structure.",
     "source": "economics_pdf",
     "type": "pdf",
     "chunk_index": 0
+  },
+  {
+    "id": "pdf_chunk_1",
+    "text": "from the Greek word oligos, meaning few. In a literal sense, therefore, an oligopoly is a market or industry containing a few firms. This is the way oligopoly is defined as a form of market structure. However, there is a problem with this method of definition. How many or how few firms should there be for oligopoly to exist? Do 10 firms make up an oligopoly but 11 firms do not? And what about a market in which there are, say, seven very large firms, but also scores or even hundreds of small firms? C Market structure and concentration ratios As we have just noted, oligopoly can be defined in terms of market structure and a limited number of firms in a market. We will look at how concentration ratios are used to identify oligopoly in highly concentrated market structures A concentration ratio can provide a good indicator of an oligopolistic market structure.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 1
+  },
+  {
+    "id": "pdf_chunk_2",
+    "text": "e will look at how concentration ratios are used to identify oligopoly in highly concentrated market structures A concentration ratio can provide a good indicator of an oligopolistic market structure. For example, a five-firm 25% concentration ratio shows the percentage or share of output in a0 an industry produced by the five largest firms in the industry. Figure 5.14 enables us to calculate the five-firm concentration ratio among the six largest banks in the UK banking industry reported in 2021. The five-firm concentration ratio was 94%, though we should note that many other smaller UK banks such as Metro Bank and the Co-operative Bank are not included in the data. Barclays HSBC 4% 17% Virgin Money Lloyds 12% Nationwide Cuan. ee eee c cece cece cece cece cece cccccece Natwest* KEY TERM concentration ratio measures the market share (percentage of the total market] of the biggest firms in the market.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 2
+  },
+  {
+    "id": "pdf_chunk_3",
+    "text": "yds 12% Nationwide Cuan. ee eee c cece cece cece cece cece cccccece Natwest* KEY TERM concentration ratio measures the market share (percentage of the total market] of the biggest firms in the market. For example, a five-firm concentration ratio measures the aggregate market share of the largest five firms. *NatWest is a subsidiary of the Royal Bank of Scotland Group. Note: figures do not total 100% because of rounding. Source: Statista.com Figure 5.14 Market shares in the UK banking industry, 2021 (% of total bank assets) --- Page 2 --- 5 PERFECT COMPETITION, IMPERFECTLY COMPETITIVE MARKETS AND MONOPOLY 146 APPLICATION OF ECONOMICS IN THE REAL WORLD 5.5 Competition in the UK supermarket industry Writing in an October 2014 edition of Management Today, Alastair Dryburgh explained why, in his view, Tesco cannot compete with Aldi and Lidl. The management expert argued that if Tesco wanted to return to health, it had to give up the idea that it could win by being the cheapest.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 3
+  },
+  {
+    "id": "pdf_chunk_4",
+    "text": "ed why, in his view, Tesco cannot compete with Aldi and Lidl. The management expert argued that if Tesco wanted to return to health, it had to give up the idea that it could win by being the cheapest. Tesco was losing out to ‘hard discounter’ retailers like Aldi and Lidl. Some commentators were arguing that Tesco should cut prices by more than it had done in the past in order to compete, but Dryburgh believed that this would be an extremely damaging move. Aldi had stated publicly that its intention was to remain at least 15% cheaper than Tesco. Aldi has always been well placed to meet this target: its whole business has been designed to be lower cost than the competition. In February 2017 Aldi stocked only around 1,500 lines, as against Tesco's 90,000. Around 90% of those lines were reported to be own brands. The package sizes are designed to make optimum use of the shelves, and the goods are delivered in shelf- ready packaging.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 4
+  },
+  {
+    "id": "pdf_chunk_5",
+    "text": "inst Tesco's 90,000. Around 90% of those lines were reported to be own brands. The package sizes are designed to make optimum use of the shelves, and the goods are delivered in shelf- ready packaging. Dryburgh argued that a company CMM cannot compete on price with other firms which have systematically designed their businesses to be lower cost — it would be like British Airways deciding to compete on price with Ryanair. Follow-up questions 1 Suggest two forms of non-price competition that Tesco might use to regain market share from ‘hard discounter’ retailers. Tesco’s largest supermarkets have usually been built outside of town and city centres. However, along with other supermarket companies, since 1994 Tesco has invested in convenience stores such as Tesco Express in high-street locations and in suburban shopping parades. Why have supermarket companies such as Tesco chosen to invest in convenience stores? Research the prices charged in Tesco superstores and convenience stores.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 5
+  },
+  {
+    "id": "pdf_chunk_6",
+    "text": "ocations and in suburban shopping parades. Why have supermarket companies such as Tesco chosen to invest in convenience stores? Research the prices charged in Tesco superstores and convenience stores. Are the prices charged similar or different? Suggest one reason for any price differences. Research Tesco's recent business strategy and comment on its success or failure. QUANTITATIVE SKILLS 5.4 Worked example: calculating a concentration ratio Table 5.3 shows the usage-based market share of internet web browsers in Europe in July 2022. Table 5.3 Market share of internet web browsers Web browser market | Market share (%) Google Chrome 58.8 Apple Safari 19.9 Mozilla Firefox 6.5 Microsoft Edge 5.9 3.5 Others 5.4 Calculate the four-firm concentration ratio for the web browser market in Europe and comment on the nature of the market structure. We calculate the four-firm concentration ratio by adding up the percentage market shares of the four leading firms. This is 58.8% + 19.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 6
+  },
+  {
+    "id": "pdf_chunk_7",
+    "text": "ket in Europe and comment on the nature of the market structure. We calculate the four-firm concentration ratio by adding up the percentage market shares of the four leading firms. This is 58.8% + 19.9% TEST YOURSELF 5.13 Distinguish between monopolistic competition and oligopoly. 1 t t t t t t t t t t t t t t t t t t t t t t t t t | | Samsung Internet t t t t t t t t t t t t t t t t t t t t t t t t t t + 6.5% + 5.9%, which equals 91.1%. The high concentration ratio tells us that the European web browser market is an oligopoly, at least as defined by market structure. The data provide no evidence as to whether or not it is a competitive or collusive oligopoly, though in the absence of evidence discovered by monopoly regulators, such as the Competition and Markets Authority in the UK, it is probably a competitive oligopoly. --- Page 3 --- C Oligopoly and market behaviour Cum... KEY TERM market conduct the pricing and marketing policies pursued by firms.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 7
+  },
+  {
+    "id": "pdf_chunk_8",
+    "text": "Markets Authority in the UK, it is probably a competitive oligopoly. --- Page 3 --- C Oligopoly and market behaviour Cum... KEY TERM market conduct the pricing and marketing policies pursued by firms. This is also known as market behaviour, but is not to be confused with market performance, which refers to the end results of these policies. TEST YOURSELF 5.14 What is the difference between market structure and market conduct? Members of the cartel cost firm Figure 5.15 A cartel or price ring TEST YOURSELF 5.15 Why may firms in highly concentrated markets decide to form a cartel? Firm Firm Firm Firm Firm A B Cc D E / Least productively efficient or highest As already mentioned, oligopoly is best defined, not only by market structure or the number of firms in the market, but also by market conduct, or the behaviour of the firms within the market.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 8
+  },
+  {
+    "id": "pdf_chunk_9",
+    "text": "highest As already mentioned, oligopoly is best defined, not only by market structure or the number of firms in the market, but also by market conduct, or the behaviour of the firms within the market. An oligopolistic firm affects its rivals through its price and output decisions, but its own profit can also be affected by how rivals behave and react to the firm’s decisions. Suppose, for example, the firm reduces its price in order to increase market share and boost profit. Whether the price reduction increases or reduces the firm’s profit depends on the reactions of the other firms. Interdependence and uncertainty in oligopoly Competitive oligopoly exists when the rival firms are interdependent in the sense that they must take account of each other’s reactions when forming a market strategy, but independent in the sense that they decide their market strategies without cooperation or collusion.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 9
+  },
+  {
+    "id": "pdf_chunk_10",
+    "text": "the sense that they must take account of each other’s reactions when forming a market strategy, but independent in the sense that they decide their market strategies without cooperation or collusion. As a result, uncertainty is a characteristic of competitive oligopoly; a firm can never be completely certain of how rivals will react to its price, marketing and output strategy. If the firm raises its price, will the rivals follow suit or will they hold their prices steady in the hope of gaining sales and market share? Non-collusive oligopoly, collusive oligopoly and cartels As we noted in the previous paragraph, in competitive oligopoly, firms act independently in the sense that they do not form agreements with each other. This is also known as non-collusive oligopoly. The uncertainty facing competitive oligopolists can be reduced and perhaps eliminated by the rival firms colluding together — for example, by forming a cartel or price ring. In Figure 5.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 10
+  },
+  {
+    "id": "pdf_chunk_11",
+    "text": "ve oligopoly. The uncertainty facing competitive oligopolists can be reduced and perhaps eliminated by the rival firms colluding together — for example, by forming a cartel or price ring. In Figure 5.15, five firms jointly agree to charge a price to keep Firm E, which is the least efficient firm, in the market. In a competitive market, Firm E would have to reduce costs or go out of business. Cartel agreements enable inefficient firms to stay in business, while other more efficient members of the price ring enjoy abnormal profit. By protecting the inefficient and enabling firms to enjoy an easy life protected from competition, cartels display the disadvantages of monopoly (high prices and restriction of choice). However, this is usually without the benefits that monopoly can sometimes bring, namely economies of scale and improvements in dynamic efficiency. CR KEY TERM cartel a collusive agreement by firms, usually to fix prices.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 11
+  },
+  {
+    "id": "pdf_chunk_12",
+    "text": "ally without the benefits that monopoly can sometimes bring, namely economies of scale and improvements in dynamic efficiency. CR KEY TERM cartel a collusive agreement by firms, usually to fix prices. Sometimes there is also an agreement to restrict output and to deter the entry of new firms. Collusion versus market cooperation Although forming a cartel can achieve a better outcome than competitive behaviour for oligopolistic firms, the result is unlikely to be good for consumers. For this reason, cartel agreements are usually illegal and judged by governments as being anti-competitive and against the public interest. Aodobno Z's --- Page 4 --- Nevertheless, some forms of cooperation or collusion between oligopolistic firms may be justifiable and in the public interest.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 12
+  },
+  {
+    "id": "pdf_chunk_13",
+    "text": "-competitive and against the public interest. Aodobno Z's --- Page 4 --- Nevertheless, some forms of cooperation or collusion between oligopolistic firms may be justifiable and in the public interest. These include joint product development (such as the Ford Fiesta and Mazda 2 cars, both built using many shared components between 1974 and 2015), and cooperation to improve health and safety within an industry or to ensure that product and labour standards are maintained. Such examples of industry collaboration, or overt collusion, which is in full public view, are normally deemed to be good, in contrast to price collusion, which is regarded as bad. Price collusion and other market-rigging agreements almost always take place in secret. This is covert collusion.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 13
+  },
+  {
+    "id": "pdf_chunk_14",
+    "text": "normally deemed to be good, in contrast to price collusion, which is regarded as bad. Price collusion and other market-rigging agreements almost always take place in secret. This is covert collusion. Tacit collusion, by contrast, occurs when there is ‘an understanding’ without any explicit agreement between the firms Cmm ; STUDY TIP H Collusive or cooperative behaviour enables firms to reduce the uncertainty | they face in imperfectly competitive markets. However, some forms of H collusion — for example, on joint development of products or ensuring ' 1 t i) 1 t i) 1 | ! industry safety standards — are in the public interest. ! TEST YOURSELF 5.16 The chairpersons of firms tendering for a government contract attend a secret meeting and verbally agree with each other to fix a higher price than if there were independent bids. What sort of collusion is this? Justify your answer.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 14
+  },
+  {
+    "id": "pdf_chunk_15",
+    "text": "ing for a government contract attend a secret meeting and verbally agree with each other to fix a higher price than if there were independent bids. What sort of collusion is this? Justify your answer. EXTENSION MATERIAL Joint-profit maximisation in collusive oligopoly Joint-profit maximisation, which is illustrated in split the 750 units equally, each firm producing 5 PERFECT COMPETITION, IMPERFECTLY COMPETITIVE MARKETS AND MONOPOLY Figure 5.16, occurs when a number of firms decide to act as a single monopolist, yet keep their separate identities. Oligopolistic firms undertake joint-profit maximisation in the belief that it can lead to higher profits for all the firms taking part. The monopoly MC curve depicted on the right-hand side of the diagram is the sum of the identical MC curves of three firms (one of which is shown on the left of the diagram). The three firms share an output of 750 units, determined on the right of the diagram where the industry MR and MC curves intersect.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 15
+  },
+  {
+    "id": "pdf_chunk_16",
+    "text": "s of three firms (one of which is shown on the left of the diagram). The three firms share an output of 750 units, determined on the right of the diagram where the industry MR and MC curves intersect. Each firm charges a price of £10, which, as the diagram shows, is the maximum price consumers are prepared to pay for 750 units of the good. The monopoly output of 750 units is well below 1,000 units, which would be the output if the industry were perfectly competitive. The shaded area in the right-hand panel shows the efficiency or welfare loss caused by the cartel raising the price to £10 and restricting output to 750 units. In this example, the members of the cartel 250 units. The shaded area on the left of the diagram shows the abnormal profit made by each firm. Although there is an incentive for firms to collude to maximise their joint profits, there is also an incentive for each m the agreement.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 16
+  },
+  {
+    "id": "pdf_chunk_17",
+    "text": "ft of the diagram shows the abnormal profit made by each firm. Although there is an incentive for firms to collude to maximise their joint profits, there is also an incentive for each m the agreement. The 250th unit of the good is only £4, yet for t ry] the marginal revenue not the whole indus received from sellin price set by the cart can increase its pro firms by secretly se ember of the cartel o cheat on marginal cost of producing the gone more unitis £ el). One member of t he firm (but 0 [i.e. the he cartel it at the expense of the other ling an output over and above its quota of 250 units at a price less than £10, but greater than the ma an example of a divergence between indi collective interest. T maintain the cartel so as to keep total sa and the price up. Bu rginal cost incurred he firms’ collective i £4). This is vidual and nterest is to es down t each firm can bene it by cheating on the agreement — as long as all the others do not alsoc heat.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 17
+  },
+  {
+    "id": "pdf_chunk_18",
+    "text": "ice up. Bu rginal cost incurred he firms’ collective i £4). This is vidual and nterest is to es down t each firm can bene it by cheating on the agreement — as long as all the others do not alsoc heat. --- Page 5 --- 250 500 750 Quota for firm Industry output Figure 5.16 Joint-profit maximisation by members of a cartel (e) Q Q: Q3 Figure 5.17 The kinked demand curve Output Cuan. SYNOPTIC LINK Economic welfare is a key measure of how successfula firm or economy is in achieving an efficient allocation of scarce resources. Welfare gains and welfare losses are explained in relation to international trade 1,000 on page 533. 1 Quantity The kinked demand curve model The kinked demand curve theory can be used to illustrate how a competitive oligopolist may be affected by rivals’ reaction to its price and output decisions. The theory was originally developed to explain alleged price rigidity and an absence of price wars in oligopolistic markets.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 18
+  },
+  {
+    "id": "pdf_chunk_19",
+    "text": "list may be affected by rivals’ reaction to its price and output decisions. The theory was originally developed to explain alleged price rigidity and an absence of price wars in oligopolistic markets. Suppose an oligopolist initially produces output Q) in Figure 5.17, selling this output at price P;. In order to anticipate how sales might change following a price change, firms ne ed to know the position and shape of the demand and revenue curves for their products. But in imperfectly competitive markets, firms lack accurate information about these curves, particularly at outputs significantly different from those currently being produced. This means that the demand curve or AR curve in Figure 5.17 is not necessarily the correct or actual demand curve for the oligopolist’s output. Instead, it represents the firm’s estimate of how demand changes when the firm changes the price it is charging.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 19
+  },
+  {
+    "id": "pdf_chunk_20",
+    "text": ".17 is not necessarily the correct or actual demand curve for the oligopolist’s output. Instead, it represents the firm’s estimate of how demand changes when the firm changes the price it is charging. When increasing price from P, to P3, the oligopolist expects rivals to react by keeping their own prices stable and not following suit. By holding their prices steady, rivals try to gain profit and market share at the firm’s expense. This means that the oligopolist expects demand to be relatively elastic in response to a price increase. The rise in price from P to P3 is likely to result in a more than proportionate fall in demand from Q) to Q>. Conversely, when cutting its price from P, to P3, the oligopolist expects rivals to react in a very different way, namely by following suit immediately with a matching price cut. In this situation, because the market demand curve for the products of all the firms slopes downwards, each firm will benefit from some increase in demand.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 20
+  },
+  {
+    "id": "pdf_chunk_21",
+    "text": "suit immediately with a matching price cut. In this situation, because the market demand curve for the products of all the firms slopes downwards, each firm will benefit from some increase in demand. However, the oligopolist fails to gain sales from rivals within the market. This means the oligopolist expects demand to be less elastic, and probably inelastic, in response to a price cut. The fall in price from P; to P; may result in a less than proportionate increase in demand from Q, to Q3. The oligopolist therefore expects rivals to react asymmetrically when price is raised or lowered. In Figure 5.17, the oligopolist’s initial price and output of P; and Q, intersect at point X, or at the kink at the junction of two demand curves of different elasticity, each reflecting a different assumption about how rivals may react to a change in price.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 21
+  },
+  {
+    "id": "pdf_chunk_22",
+    "text": "of P; and Q, intersect at point X, or at the kink at the junction of two demand curves of different elasticity, each reflecting a different assumption about how rivals may react to a change in price. If when price is raised, demand is elastic, and when price is cut, demand is inelastic, any change in price will reduce the oligopolist’s total revenue. In this situation, the oligopolist reduce total profit. Given this fear, the best policy may be to leave price unchanged. fears that both a price increase and a price cut are likely to Aodobno Z's --- Page 6 --- 5 PERFECT COMPETITION, IMPERFECTLY COMPETITIVE MARKETS AND MONOPOLY Cum. EXTENSION MATERIAL Developing the kinked demand curve theory By developing the theory a little more, we can explain a second reason why prices may tend to be stable in oligopoly. As Figure 5.18 illustrates, a mathematical discontinuity exists along the vertical line drawn above output Q;.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 22
+  },
+  {
+    "id": "pdf_chunk_23",
+    "text": "ittle more, we can explain a second reason why prices may tend to be stable in oligopoly. As Figure 5.18 illustrates, a mathematical discontinuity exists along the vertical line drawn above output Q;. For the demand and average revenue curves, the discontinuity occurs at the ‘kink’ where the curves intersect. But for the marginal revenue curves, which are twice as steep as the AR curves with which they are associated, the discontinuity is the ‘gap’ between the two MR curves, shown by the distance B to C. Suppose initially the firm's marginal cost curve is MC,, intersecting the MR curve at point A, which is positioned in the middle of the vertical section. The diagram shows that the MC curve can rise or fall within the vertical section of the MR curve, without altering the profit-maximising output Q, or price P,. But if marginal costs rise above MC, at point B or fall below MC; at point C, the profit-maximising output changes.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 23
+  },
+  {
+    "id": "pdf_chunk_24",
+    "text": "ction of the MR curve, without altering the profit-maximising output Q, or price P,. But if marginal costs rise above MC, at point B or fall below MC; at point C, the profit-maximising output changes. In either of these circumstances, the oligopolist would have to set a different price to maximise profits, provided of course that the AR curve accurately measures demand for the firm's product at different prices. Nevertheless, the oligopolist’s selling price remains stable at P; as long as the marginal cost curve lies between MC, and MC3, despite quite considerable changes in marginal costs. Price ie) Q Figure 5.18 Developing the theory of the kinked demand curve Output Criticisms of the kinked demand curve theory There are a number of weaknesses in the theory we have just described.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 24
+  },
+  {
+    "id": "pdf_chunk_25",
+    "text": "sts. Price ie) Q Figure 5.18 Developing the theory of the kinked demand curve Output Criticisms of the kinked demand curve theory There are a number of weaknesses in the theory we have just described. Although at first sight it is attractive as a neat and apparently plausible explanation of price stability in conditions of oligopoly, few economists now accept the kinked demand theory of oligopoly pricing. First, it is an incomplete theory, since it does not explain how and why a firm chooses in the first place to be at point X in Figure 5.17. Second, the evidence i STUDY TIP ' Students often wrongly believe t that the kinked demand curve | provides a complete theory of ' oligopoly. It is actually a very H doubtful theory, but it does H illustrate how oligopolists are H interdependent and affected by 1 ' 1 uncertainty. in demand occur. provided by the pricing decisions of real-world firms gives little support to the theory.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 25
+  },
+  {
+    "id": "pdf_chunk_26",
+    "text": "it does H illustrate how oligopolists are H interdependent and affected by 1 ' 1 uncertainty. in demand occur. provided by the pricing decisions of real-world firms gives little support to the theory. Competitive oligopolists seldom respond to price changes in the manner assumed in the kinked demand curve theory. It is more reasonable to expect a firm to test the market — that is, to raise or lower its selling price to see if rivals react in the manner expected. If rivals do not, then the firm must surely revise its estimate of the shape of the demand curve facing it.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 26
+  },
+  {
+    "id": "pdf_chunk_27",
+    "text": "that is, to raise or lower its selling price to see if rivals react in the manner expected. If rivals do not, then the firm must surely revise its estimate of the shape of the demand curve facing it. Research has shown fairly conclusively that oligopoly prices tend to be stable or sticky when demand conditions change in a predictable or cyclical way, but that oligopolists usually raise or lower prices quickly and by significant amounts, both when production costs change substantially, and when unexpected shifts O The advantages and disadvantages of oligopoly The term ‘oligopoly’ covers a range of more narrowly defined market structures, ranging from pure duopoly (two firms only in a market), to markets which combine quite a large number of firms, a few dominant, but many very --- Page 7 --- small and without much market power. It also ranges from competitive or non-collusive oligopoly to cartels in which member firms collude together, often to reduce competition.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 27
+  },
+  {
+    "id": "pdf_chunk_28",
+    "text": "many very --- Page 7 --- small and without much market power. It also ranges from competitive or non-collusive oligopoly to cartels in which member firms collude together, often to reduce competition. The following list of advantages and disadvantages is not relevant for all oligopoly market structures Possible advantages of oligopoly @ Just like a monopoly, firms benefit from economies of scale in oligopoly, which means they can become more dynamically efficient and can pass on cost cuts as low prices to consumers @ With only a few firms available from which to buy, it will be easy for consumers to compare and choose the best option for their needs. Oher markets may offer too much choice, leading to confusion among consumers. Behavioural economists sometimes make this point. @ Provided that there is a degree of competition, oligopolists continuously innovate and develop new and better products.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 28
+  },
+  {
+    "id": "pdf_chunk_29",
+    "text": "o confusion among consumers. Behavioural economists sometimes make this point. @ Provided that there is a degree of competition, oligopolists continuously innovate and develop new and better products. Possible disadvantages of oligopoly e Again, just like a monopoly, oligopolies restrict output and raise prices (and profit), compared to a more competitive market. Firms may satisfice, content with an easy life e As we have noted, cartels are a bad form of market structure, combining the disadvantages of monopoly (high prices, productive and allocative inefficiency and lack of choice) with few if any of the benefits. @ Small, competitive and innovative firms may find it difficult to enter the market. @ Ultimately, as in monopoly, the producer rather than the consumer ends up being dominant, with producer sovereignty rather than consumer sovereignty ruling the market. C Price leadership, price agreements and Cum...",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 29
+  },
+  {
+    "id": "pdf_chunk_30",
+    "text": "in monopoly, the producer rather than the consumer ends up being dominant, with producer sovereignty rather than consumer sovereignty ruling the market. C Price leadership, price agreements and Cum... KEY TERMS price leadership the setting of prices in a market, usually by a dominant firm, which is then followed by other firms in the same market. price agreement an agreement between a firm, similar firms, suppliers or customers regarding the pricing of a good or service. price war occurs when rival firms continuously lower prices to undercut each other. price wars Price leadership Because overt collusive agreements to fix the market price, such as cartel agreements, are usually illegal, imperfectly competitive firms often use less formal or tacit ways to coordinate their pricing decisions. An example of covert collusion is price leadership, which occurs when one firm becomes the market leader and other firms in the industry follow its pricing example.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 30
+  },
+  {
+    "id": "pdf_chunk_31",
+    "text": "coordinate their pricing decisions. An example of covert collusion is price leadership, which occurs when one firm becomes the market leader and other firms in the industry follow its pricing example. Price agreements We have already seen earlier in the chapter how members of a cartel often fix the prices that all the members ol the cartel charge by forming a price ring. Price agreements can also be made between firms and their suppliers, and between firms and their customers. In both these cases, a price agreement is usually good for a specified period of time, such as six months Price wars Price wars, which take place both in monopolistic competition and in oligopoly, may be started accidently or may be instigated deliberately to damage competitors.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 31
+  },
+  {
+    "id": "pdf_chunk_32",
+    "text": "f time, such as six months Price wars Price wars, which take place both in monopolistic competition and in oligopoly, may be started accidently or may be instigated deliberately to damage competitors. Whereas price leadership usually involves quite friendly relations between the companies involved, price wars — as the name indicates — centre on price cutting aimed at the very least at increasing market share, and in Aodobno Z's --- Page 8 --- 5 PERFECT COMPETITION, IMPERFECTLY COMPETITIVE MARKETS AND MONOPOLY 152 the extreme at forcing rival firms out of business. Consumers may of course benefit from a price war, at least in the short run, though if firms are driven out of the market, the monopoly power of the surviving firms increases, which is likely to be to the detriment of consumers. APPLICATION OF ECONOMICS IN THE REAL WORLD 5.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 32
+  },
+  {
+    "id": "pdf_chunk_33",
+    "text": "n, though if firms are driven out of the market, the monopoly power of the surviving firms increases, which is likely to be to the detriment of consumers. APPLICATION OF ECONOMICS IN THE REAL WORLD 5.6 Discounting in the books market Ending retail price maintenance in the UK books market resulted in the closure of many small, independent bookshops Many years ago, UK law allowed manufacturers to decide the prices at which retailers sold their goods. If a shop tried to undercut or discount a set price, the manufacturer could stop supplying the good to he retailer. As a result, price competition between irms selling similar goods hardly existed and manufacturers made excessive profits. This was a restrictive practice known as retail price maintenance. Eventually the law was changed in an effort 0 promote more competition. However, manufacturers then set recommended retail prices RRPs}, which they hoped shops would abide by.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 33
+  },
+  {
+    "id": "pdf_chunk_34",
+    "text": "etail price maintenance. Eventually the law was changed in an effort 0 promote more competition. However, manufacturers then set recommended retail prices RRPs}, which they hoped shops would abide by. Selling at recommended retail prices became especially important in book publishing, where very ittle price discounting took place. Paperback books were generally sold at the prices printed by the publishers on the covers. Small bookshops justified the lack of price competition on the grounds hat consumers benefited, both from bookshops surviving in small towns and from a much wider selection of books being on display. However, the law was eventually changed. Large book chain stores such as Waterstones began to sell books at prices well below the publishers’ recommended prices. Small bookshops could not compete and many closed down. However, large stores themselves were now facing increasing competition from the growth of the online retailer, Amazon.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 34
+  },
+  {
+    "id": "pdf_chunk_35",
+    "text": "ers’ recommended prices. Small bookshops could not compete and many closed down. However, large stores themselves were now facing increasing competition from the growth of the online retailer, Amazon. Many people now pop into bookshops, not to buy books, but to browse, before going home to order the books they want online. The picture is different in France. French law fixes book prices with the result that readers pay the same whether they buy online, from a big high- street chain, or from a small bookseller. Extensive discounting is banned, although 5% discounts are allowed. Result: there are between 2,500 and 3,000 independent bookshops in France, compared with fewer than 1,000 in the UK. Most small French towns have at least two bookshops and there is a wide choice of books on display. The French government says that the banning of discounts of more than 5% has saved its independent bookstores from the free-marke capitalism that hit the UK when it abandoned fixed prices.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 35
+  },
+  {
+    "id": "pdf_chunk_36",
+    "text": "on display. The French government says that the banning of discounts of more than 5% has saved its independent bookstores from the free-marke capitalism that hit the UK when it abandoned fixed prices. Nevertheless, the owners of French bookshops still argue they cannot compete with Amazon, even with Amazon's discounts limited to 5%, because the online retailer provides free postage and free fast delivery deals on top of the discount. Consumers can also bypass French law by ordering books online in countries such as Belgium. A French culture minister has said: ‘Everyone has had enough of Amazon, which by dumping practices, slashes prices to get a foothold in markets, only to raise them as soon as they have established a virtual monopoly ... the book and reading sector is facing competition from certain sites using every possible means to enter the French and European book market ... it is destroying bookshops.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 36
+  },
+  {
+    "id": "pdf_chunk_37",
+    "text": "shed a virtual monopoly ... the book and reading sector is facing competition from certain sites using every possible means to enter the French and European book market ... it is destroying bookshops.’ Follow-up questions 1 Explain how the changing nature of competition in the book market illustrates the process of creative destruction. Do you agree that the growth of Amazon has been good for consumers? Justify your answer. Conduct some research to find out whether the number of specialist bookshops has declined in the town or area in which you live. Many people are worried about the decline of ‘high street’ shopping in the UK. Do you agree that this is a problem? What, if anything, can be done to reverse this decline? --- Page 9 --- SECTION 5.7 SUMMARY © Oligopoly is imperfect competition ‘among the few’. ° High concen oligopoly. It is usually more useful to define oligopoly by interdependence and reactive behaviour.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 37
+  },
+  {
+    "id": "pdf_chunk_38",
+    "text": "- Page 9 --- SECTION 5.7 SUMMARY © Oligopoly is imperfect competition ‘among the few’. ° High concen oligopoly. It is usually more useful to define oligopoly by interdependence and reactive behaviour. It is also use and competit ration ratios are often used to define ul to distinguish between collusive ive oligopoly. Oligopolists sometimes collude to reduce uncertainty and to increase monopoly profit. The theory of the kinked demand curve, which is often used to model competitive oligopoly, illustrates the effects of uncertainty and interdependence in oligopoly, but the theory has a number of weaknesses. Just like a monopoly, firms benefit from economies of scale in oligopoly, which means they can become more dynamically efficient and can pass on cost cuts as low prices to consumers. Provided that there is a degree of competition, oligopolists continuously innovate and develop new and better products.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 38
+  },
+  {
+    "id": "pdf_chunk_39",
+    "text": "more dynamically efficient and can pass on cost cuts as low prices to consumers. Provided that there is a degree of competition, oligopolists continuously innovate and develop new and better products. Again, just like a monopoly, oligopolies restrict output and raise prices (and profit], compared to a more competitive market. Firms may satisfice, content with an easy life. Collusive oligopoly in the form of a cartel is a bad form of market structure, combining the disadvantages of monopoly (high prices, productive and allocative inefficiency and lack of choice] with few if any of the benefits. UONEUIWIJISIP Bldg 3°S 5.8 Price discrimination C The meaning of price discrimination Ou. KEY TERM price discrimination charging different prices to different customers for the same product or service, with the prices based on different willingness to pay. customers for the same to pay more are charged a lower price.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 39
+  },
+  {
+    "id": "pdf_chunk_40",
+    "text": "n charging different prices to different customers for the same product or service, with the prices based on different willingness to pay. customers for the same to pay more are charged a lower price. In the ma However, in one form o larger quantities are cha quantities of the good When this happens, dif! charged are not based on Price discrimination involves firms charging different prices to different product or service, based on differences in the customers’ ability and willingness to pay. Those customers who are prepared a higher price than those who are only willing to pay in form of price discrimination, the different prices any differences in costs of production or supply. price discrimination, bulk buying, consumers buying rged lower prices than consumers purchasing smaller erent costs of supply may be involved. Bulk purchases generally have lower average costs of production than smaller purchases.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 40
+  },
+  {
+    "id": "pdf_chunk_41",
+    "text": "ing, consumers buying rged lower prices than consumers purchasing smaller erent costs of supply may be involved. Bulk purchases generally have lower average costs of production than smaller purchases. (a) Peak customers (b) Off-peak customers Price Price Pp w Po Y MC MC VIR AR wR AR > > ie) Qp Quantity ie) Qo Quantity Figure 5.19 Price discrimination when a firm charges different prices to two groups of customers To maximise profit, MR In Figure 5.19 a rail operating firm divides its market into peak time (busy periods) and off-peak time (less busy periods) customers, each with a different elasticity of demand for travel. For both peak and off-peak customers, the downward- sloping demand curves in Figure 5.19 show average revenue, but not marginal revenue. In each case, the MR curve is twice as steep as the AR curve. The diagrams also assume that the marginal cost incurred when an extra customer uses the rail service is always the same. This is shown by the horizontal MC curve.",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 41
+  },
+  {
+    "id": "pdf_chunk_42",
+    "text": "e is twice as steep as the AR curve. The diagrams also assume that the marginal cost incurred when an extra customer uses the rail service is always the same. This is shown by the horizontal MC curve. must equal MC in both peak and off-peak sub- markets. As the diagrams show, this means that peak customers pay a higher ticket price than off-pea k customers, namely Pp, with off-peak customers paying the lower entry price of Po. With the different prices being charged,",
+    "source": "economics_pdf",
+    "type": "pdf",
+    "chunk_index": 42
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_0",
+    "text": "hi everybody let's in this video look at oligopoly in detail focusing on the kingom man Curve Model of studying oligopoly we're going to look at it in the same way as always we're going to start with characteristics we're then going to go to our King demand curve diagram then we're going to look at the conclusions that we can take from this this is part one of our oligopoly study we can also use Game Theory to map olop Behavior that's going to be the next video so stay tuned for that after this let's go straight into the characteristics that define oligopoly a very very realistic Market structure here well olig means few so we can say that there are a few firms that dominate the market being more precise than that we can say that there is a high concentration ratio what does that mean well",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 0
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_1",
+    "text": "ere are a few firms that dominate the market being more precise than that we can say that there is a high concentration ratio what does that mean well we normally say as economists no more than seven firms with collectively around 70% market share that's kind of how we Define an oligopoly these firms will have differentiated Goods unique Goods which means that they are price makers here we say there are high barriers to entry and exit an oligopolistic markets the major barriers to entry startup costs economies of scale sunk costs brand loyalty they tend to be quite strong we say that in oligopolistic markets there is interdependence this is a defining feature of an oligopoly Market along with number one probably the most important characteristic here what is interdependence interdependence",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 1
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_2",
+    "text": "defining feature of an oligopoly Market along with number one probably the most important characteristic here what is interdependence interdependence means that firms don't make decisions on their own independently no they make their choices they make decisions based on the actions and all the reactions of rival firms so they don't just make decisions independently on their own they think about what their Rivals are going to do they think about rival firms first and then make decisions so that's interdependence firms make decisions based on the actions and or reactions of rival firms very important characteristic and because of that we often see price rigidity we're going to study how in a second using the king demander model so it's there isn't much competition on price prices tend to be",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 2
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_3",
+    "text": "see price rigidity we're going to study how in a second using the king demander model so it's there isn't much competition on price prices tend to be sticky or rigid we see a lot of non-price competition therefore competition based on branding advertising quality of product quality of service that kind of thing and also because of interdependence profit maximization is not necessarily here the sole objective of firms firms don't make decisions independently they always think about what their Rivals are doing what their Rivals are going to do and if you think about oligopoly as a dog fight a dog fight for market share firms are very close to having control over the market Monopoly power in the market and therefore anything that they can do that's going to give them that power they are goin",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 3
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_4",
+    "text": "having control over the market Monopoly power in the market and therefore anything that they can do that's going to give them that power they are going to do if that means profit maximization is the best then by all means but if it means a different objective is better then they'll pursue that so it makes knowing the objective very difficult in truth we don't know what the objective of firms are in oligopoly therefore we say that profit Max is not always the sole objective you think of this as a dog fight for market share whatever objective allows a firm to get there is what the objective of firm is going to be so understanding these characteristics can we look at any real life examples yeah there are some really good ones let's look at Global oligopoly examples we can take the global soft",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 4
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_5",
+    "text": "ristics can we look at any real life examples yeah there are some really good ones let's look at Global oligopoly examples we can take the global soft drink industry absolutely a duopoly between Coca-Cola and Pepsi the global car industry is a good example OPEC is a legal oligopoly um very good example right the uh petroleum exporting countries here OPEC but we take the UK there are some great examples of UK oligopoly the UK Supermarket industry the UK energy industry the UK Supermarket fuel providers uh UK bus Market UK Airline Market whether it's short hall or Long Haul Airline some brilliant examples of oligopoly and the characteristics will fit here but can we map oligopoly Behavior due to interdependence it's very difficult but one tool to help us is the king demand curve model here w",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 5
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_6",
+    "text": "ll fit here but can we map oligopoly Behavior due to interdependence it's very difficult but one tool to help us is the king demand curve model here what can we learn from this the king demand curve can nicely illustrate inter dependence and can lead us to our conclusion of price rigidity in two ways the first way to use kingd demand curve is to understand that firms don't want to change their price let's understand how here so the price in the market is currently at P1 it is settled there and the theory goes that around P1 there are differing elasticities of demand we can see that above P1 there is a price elastic demand curve and we can see that below P1 there is a price inelastic demand curve differing price elasticities of demand around the price in the market of P1 therefore it makes",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 6
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_7",
+    "text": "that below P1 there is a price inelastic demand curve differing price elasticities of demand around the price in the market of P1 therefore it makes no sense for a firm to change their price let's take an example and say a firm raises their price from P1 to P2 we can see here that quantity demanded is going to decrease but decrease proportionately more than the increase in price why is that as a firm moves on to the price elastic part of the demand curve that's because of interdependence other firms will not follow this price rise looking to gain market shares other firms are going to keep that price at P1 and undercut this firm so the firm that's raised that price is going to suffer all the other firms in the market will keep that price at P1 demand is going to drop off significantly and",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 7
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_8",
+    "text": "that's raised that price is going to suffer all the other firms in the market will keep that price at P1 demand is going to drop off significantly and as a result market share is going to decrease total revenue is going to decrease for this firm what a stupid decision when olop is all about a dog fight for market share so raising price above P1 makes absolutely no sense because of interdependence and how other firms will react what about reducing price let's say this firm goes for a big decrease in price from P1 to P3 here big decrease in price well we can see because of the law of demand demand is going to increase from q1 to Q3 but proportionately less than the reduction in price and that's clear to see here as this firm now moves onto the price inelastic portion of the demand curve why",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 8
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_9",
+    "text": "onately less than the reduction in price and that's clear to see here as this firm now moves onto the price inelastic portion of the demand curve why is that why is the proportional increase in quantity demanded going to be less than the fall in price well that's because of other firms and how they're going to react act other firms are going to follow looking to protect their market share they're going to follow and get into a price war with this firm as a result of that total revenue is going to decrease remember if we reduce price and demand is priced inelastic total revenue is going to fall and net overtime there is going to be no change in market share so even a price reduction is not in the best interest of the firm as they move onto the price in elastic portion of the demand curve he",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 9
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_10",
+    "text": "n market share so even a price reduction is not in the best interest of the firm as they move onto the price in elastic portion of the demand curve here so it's clear from the very basic King demand curve model that firms don't want to change their price raising price they'll lose market share and reducing price they won't gain any market share in the long run they're going to lose Revenue in both cases here so changing price altering price from P1 makes no sense for the firm because of interdependence therefore there is an argument of price rigidity in oligopoly but there is another way we can use King demanda we can enhance it and understand why firms don't need to change their price and that comes from drawing the marginal revenue curve the marginal revenue curve is going to look someth",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 10
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_11",
+    "text": "d why firms don't need to change their price and that comes from drawing the marginal revenue curve the marginal revenue curve is going to look something like this remember Mr is always twice as steep as AR so twice as steep there but then it's going to possess a vertical gap before being twice as steep as the second part of the AR curve join everything together we have an MR curve that looks like that you don't need to understand why the Mr curve has got a vertical Gap in it but if you want to know just click on this link I've explained it why there is a vertical Gap when we draw the Mr curve in the king demand curve model you can understand it there but that's what it looks like the Mr curve with a vertical Gap in it and the idea is that if costs change within this Gap so let's say cost",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 11
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_12",
+    "text": "it there but that's what it looks like the Mr curve with a vertical Gap in it and the idea is that if costs change within this Gap so let's say cost increase we're going to draw marginal cost MC1 and cost to increase to mc2 the idea is as long as costs change within this vertical Gap if the oligopolist is a profit maximizer producing where MC equals Mr in any case they're going to be charging a price of P1 and understand that by looking at this diagram so if the oligopolist is a profit maximizer producing where mcals Mr in both cases mcal Mr is going to give us a quantity here of q1 remembering that we read the price of the AR curve as long as quantity is at q1 the price is always going to be reading off the AR curve P1 so we can understand that because there is a vertical Gap in the Mr c",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 12
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_13",
+    "text": "as quantity is at q1 the price is always going to be reading off the AR curve P1 so we can understand that because there is a vertical Gap in the Mr curve here as long as costs change within this vertical Gap a profit maximizing oligopolist producing mcal Mr will always charge a price of P1 I.",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 13
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_14",
+    "text": "e Mr curve here as long as costs change within this vertical Gap a profit maximizing oligopolist producing mcal Mr will always charge a price of P1 I.",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 14
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_15",
+    "text": "e Mr curve here as long as costs change within this vertical Gap a profit maximizing oligopolist producing mcal Mr will always charge a price of P1 I.",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 15
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_16",
+    "text": "e Mr curve here as long as costs change within this vertical Gap a profit maximizing oligopolist producing mcal Mr will always charge a price of P1 I.",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 16
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_17",
+    "text": "e Mr curve here as long as costs change within this vertical Gap a profit maximizing oligopolist producing mcal Mr will always charge a price of P1 I.",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 17
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_18",
+    "text": "e Mr curve here as long as costs change within this vertical Gap a profit maximizing oligopolist producing mcal Mr will always charge a price of P1 I.",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 18
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_19",
+    "text": "e Mr curve here as long as costs change within this vertical Gap a profit maximizing oligopolist producing mcal Mr will always charge a price of P1 I.",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 19
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_20",
+    "text": "e Mr curve here as long as costs change within this vertical Gap a profit maximizing oligopolist producing mcal Mr will always charge a price of P1 I.",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 20
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_21",
+    "text": "e Mr curve here as long as costs change within this vertical Gap a profit maximizing oligopolist producing mcal Mr will always charge a price of P1 I.",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 21
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_22",
+    "text": "e Mr curve here as long as costs change within this vertical Gap a profit maximizing oligopolist producing mcal Mr will always charge a price of P1 I.",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 22
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_23",
+    "text": "e Mr curve here as long as costs change within this vertical Gap a profit maximizing oligopolist producing mcal Mr will always charge a price of P1 I.",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 23
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_24",
+    "text": "e Mr curve here as long as costs change within this vertical Gap a profit maximizing oligopolist producing mcal Mr will always charge a price of P1 I.",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 24
+  },
+  {
+    "id": "youtube_Ec19ljjvlCI_chunk_25",
+    "text": "e Mr curve here as long as costs change within this vertical Gap a profit maximizing oligopolist producing mcal Mr will always charge a price of P1 I.",
+    "source": "youtube_video_Ec19ljjvlCI",
+    "type": "youtube",
+    "video_url": "https://youtu.be/Ec19ljjvlCI?list=TLGG6f3IQWMbfUswNDExMjAyNQ",
+    "chunk_index": 25
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_0",
+    "text": "hi everybody let's continue our study of oligopoly by looking at how Game Theory can fit in make sure that you've already seen my king de maner video first before watching this video and we could see from that video how we could use Kingdom man curve to understand the behavior of oligopolistic firms but one of the biggest limitations of Kingdom man curve is that it doesn't map interdependence to the same detail as Game Theory does and therefore Game Theory can give us more nuanced and detailed conclusions than kingd demand let's understand how we could argue that an oligopolistic Market is like a prisoners dilemma game here and if we apply the prisoners dilemma game to oligopoly we'll get to a situation like this so we can see here we have two firms firm a and firm B and each firm is facin",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 0
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_1",
+    "text": "e prisoners dilemma game to oligopoly we'll get to a situation like this so we can see here we have two firms firm a and firm B and each firm is facing the same pricing decisions whether to charge a high price of1 or whether to charge a low price of 90 p and what I've done is I've put in their payoffs their profits depending on the options that they pick into the table here important for you you guys to remember that the leftand number is always the payoff or the profit for the firm on the left in this case firm a whereas the right hand number is always the payoff of the profit for the firm at the top in this case firm B here that's very important to remember so let's say that these are profits per month depending on the pricing strategies that each firm takes so we take this first sell he",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 1
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_2",
+    "text": "rtant to remember so let's say that these are profits per month depending on the pricing strategies that each firm takes so we take this first sell here we can see that firm a and firm B are both charging the high price of 1 in which case firm a is going to make £3 million right so the number on the left is the profit for the firm on the left so firm a is going to make3 million and firm B is going to make £3 million the right hand number is the profit or the payoff for the firm at the top so that's the basic idea of how to interpret these numbers okay what we need to be able to do is to solve this game you have to be able to do that think of this as a diagram but this diagram needs to be solved how do we do that how do we know what each firm should do well this is interdependence right tha",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 2
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_3",
+    "text": "this as a diagram but this diagram needs to be solved how do we do that how do we know what each firm should do well this is interdependence right that's why game theory is brilliant What should each firm do it depends on the actions of the other firm so what should firm a do depends on what firm B does if firm B decides to charge one pound it means that these two cells are open right these two cells if firm B goes for a pound what should firm a do well they've got two options they can either charge one pound as well and earn £3 million or they could undercut FM B and charge 90 p and earn 4 million the rational outcome clearly is to undercut and charge £4 million in which case we underline that rational outcome by underlining The Profit that firm a will make what if firm B goes for 90p and",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 3
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_4",
+    "text": "and charge £4 million in which case we underline that rational outcome by underlining The Profit that firm a will make what if firm B goes for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 4
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_5",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 5
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_6",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 6
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_7",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 7
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_8",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 8
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_9",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 9
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_10",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 10
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_11",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 11
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_12",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 12
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_13",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 13
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_14",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 14
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_15",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 15
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_16",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 16
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_17",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 17
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_18",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 18
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_19",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 19
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_20",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 20
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_21",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 21
+  },
+  {
+    "id": "youtube_Z_S0VA4jKes_chunk_22",
+    "text": "s for 90p and they charge the low price well that means that these two cells are open in which case firm a could charge the high price of1 and earn 0.",
+    "source": "youtube_video_Z_S0VA4jKes",
+    "type": "youtube",
+    "video_url": "https://www.youtube.com/watch?v=Z_S0VA4jKes",
+    "chunk_index": 22
   }
 ]
