@@ -7,8 +7,8 @@ import os
 from typing import List, Dict
 from openai import OpenAI
 from dotenv import load_dotenv
-from vector_store import VectorStore
-from embeddings import EmbeddingGenerator
+from .vector_store import VectorStore
+from .embeddings import EmbeddingGenerator
 
 load_dotenv()
 

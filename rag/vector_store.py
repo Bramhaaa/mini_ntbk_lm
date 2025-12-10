@@ -9,7 +9,7 @@ import pickle
 import numpy as np
 import faiss
 from typing import List, Dict, Tuple
-from embeddings import EmbeddingGenerator
+from .embeddings import EmbeddingGenerator
 
 
 class VectorStore:
