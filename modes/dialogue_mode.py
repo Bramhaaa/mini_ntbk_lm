@@ -29,7 +29,7 @@ class DialogueMode:
         self.retriever = retriever
         api_key = os.getenv("GOOGLE_API_KEY")
         genai.configure(api_key=api_key)
-        self.model = genai.GenerativeModel("gemini-pro")
+        self.model = genai.GenerativeModel("gemini-2.5-flash")
     
     def generate_dialogue(self, topic: str, num_exchanges: int = 5) -> Dict[str, any]:
         """

@@ -16,7 +16,7 @@ load_dotenv()
 class RAGRetriever:
     """Retrieval-Augmented Generation system."""
     
-    def __init__(self, vector_store: VectorStore, model: str = "gemini-pro"):
+    def __init__(self, vector_store: VectorStore, model: str = "gemini-2.5-flash"):
         """
         Initialize RAG retriever.
         
@@ -101,15 +101,16 @@ Answer:"""
         context, sources = self.retrieve_context(query, k=k)
         
         # System prompt for Q&A mode
-        system_prompt = """You are an expert economics tutor. Answer questions based ONLY on the provided context from the economics chapter and video transcripts.
+        system_prompt = """You are a friendly, helpful economics teacher having a natural conversation with a student. 
 
 Rules:
-1. Ground all answers strictly in the provided sources
-2. If information is not in the sources, say "I don't have enough information in the provided materials to answer this"
-3. Cite which sources you're using (PDF or video transcript)
-4. Be clear, concise, and educational
-5. Use examples from the sources when available
-6. Never make up information or use external knowledge"""
+1. Be conversational and warm - respond like a real teacher chatting with a student
+2. Use the provided context to inform your answers, but don't cite sources explicitly (no "according to Source 1")
+3. If continuing a conversation, acknowledge what was discussed before
+4. Keep responses concise and natural (2-4 sentences usually)
+5. Use casual language like "Hey!", "Great question!", "Actually...", "You know what's interesting..."
+6. If you don't have info in the materials, say something like "Hmm, I don't have that specific info in our course materials"
+7. Never be formal or list-like - just chat naturally"""
         
         # Generate answer
         answer = self.generate_response(query, context, system_prompt)

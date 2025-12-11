@@ -29,7 +29,7 @@ class VideoSummaryMode:
         self.retriever = retriever
         api_key = os.getenv("GOOGLE_API_KEY")
         genai.configure(api_key=api_key)
-        self.model = genai.GenerativeModel("gemini-pro")
+        self.model = genai.GenerativeModel("gemini-2.5-flash")
     
     def generate_summary(self, topic: str = "Chapter Overview") -> Dict[str, any]:
         """
